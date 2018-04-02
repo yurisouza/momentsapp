@@ -1,0 +1,22 @@
+page-profile {
+    .align-center {
+        text-align: center;
+    }
+    img {
+        border-radius: 1%;
+        margin: 0 auto;
+        // width: 35ch;
+        height: 50ch;
+        display: block;
+        object-fit: contain;
+        position: relative;
+        top: 50%;
+        transform: translateY(0%);
+        background-color: #f4f4f4;
+    }
+    .button {
+        display: block;
+        margin: 0 auto;
+        width: 94%;
+    }
+}

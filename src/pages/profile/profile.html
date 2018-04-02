@@ -1,0 +1,38 @@
+<ion-header>
+
+    <ion-navbar>
+        <ion-title>
+            Perfil
+        </ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only (click)="openOptions()"><ion-icon ios="ios-more" md="md-more"></ion-icon></button>
+        </ion-buttons>
+    </ion-navbar>
+
+</ion-header>
+
+<ion-content class="card-background-page">
+
+    <ion-card>
+        <img src="https://ecservice.rakuten.com.br/rux/wp-content/themes/RUX/images/no-photo.png">
+    </ion-card>
+
+    <ion-card color="dark">
+        <ion-grid class="align-center">
+            <ion-row>
+                <ion-col col-4>Moments</ion-col>
+                <ion-col col-4>Photos</ion-col>
+                <ion-col col-4>Friends</ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col col-4>1</ion-col>
+                <ion-col col-4>8</ion-col>
+                <ion-col col-4>2</ion-col>
+            </ion-row>
+        </ion-grid>
+    </ion-card>
+
+    <button ion-button block color="dark" class="button" outline>Edit profile</button>
+
+
+</ion-content>
