@@ -19,7 +19,7 @@ export class UserRepository{
         return this.storage.remove("user");
     }
 
-    public get(){
+    public get() : Promise<User>{
         return this.storage.get("user");
     }
 

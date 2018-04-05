@@ -13,11 +13,11 @@
 
 <ion-content class="card-background-page">
 
-    <ion-card (click)="openGallery()">
-        <img src="https://ionicframework.com/dist/preview-app/www/assets/img/advance-card-bttf.png">
+    <ion-card *ngFor="let moment of moments">
+        <img (click)="openGallery(moment)" [src]="moment.Posts[0].url">
 
         <ion-card-content>
-            <p>Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.</p>
+            <p>{{moment.name}}</p>
         </ion-card-content>
     </ion-card>
 </ion-content>
